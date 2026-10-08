@@ -54,7 +54,7 @@
 ## 06 / GITHUB SIGNAL
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ADIkaprojects/ADIkaprojects/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Flow" />
+  <img src="./assets/activity.svg" width="100%" alt="Contribution Flow" />
 </div>
 <br/>
 <table width="100%">
