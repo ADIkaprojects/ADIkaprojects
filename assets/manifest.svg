@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="200" viewBox="0 0 1400 200">
+  <defs>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0V56" fill="none" stroke="#ffffff" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="50%" cy="44%" r="52%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity=".05"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="200" rx="18" fill="#0d1117"/>
+  <rect width="1400" height="200" rx="18" fill="url(#grid)"/>
+  <rect width="1400" height="200" rx="18" fill="url(#glow)"/>
+
+  <!-- Content -->
+  <g transform="translate(30, 30)">
+    
+    <!-- Row 1: Intro Text -->
+    <text x="10" y="20" font-family="sans-serif" font-size="18" fill="#f4f4f5" opacity=".85">I engineer intelligent systems that <tspan font-weight="700">reason with purpose</tspan>, <tspan font-weight="700">adapt with context</tspan>, and <tspan font-weight="700">ship with confidence</tspan>.</text>
+
+    <!-- Row 2: Cards -->
+    <g transform="translate(10, 60)">
+      
+      <!-- Card 1 -->
+      <rect x="0" y="0" width="315" height="90" rx="12" fill="#ffffff" fill-opacity=".02"/>
+      <text x="157.5" y="45" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="28" fill="#f4f4f5">9.25</text>
+      <text x="157.5" y="72" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".55" letter-spacing="1">CGPA · AI/ML</text>
+      
+      <!-- Card 2 -->
+      <rect x="335" y="0" width="315" height="90" rx="12" fill="#ffffff" fill-opacity=".02"/>
+      <text x="492.5" y="45" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="28" fill="#f4f4f5">10K+</text>
+      <text x="492.5" y="72" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".55" letter-spacing="1">PDFs INDEXED</text>
+      
+      <!-- Card 3 -->
+      <rect x="670" y="0" width="315" height="90" rx="12" fill="#ffffff" fill-opacity=".02"/>
+      <text x="827.5" y="45" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="28" fill="#f4f4f5">1.1B</text>
+      <text x="827.5" y="72" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".55" letter-spacing="1">PARAMS FINE-TUNED</text>
+      
+      <!-- Card 4 -->
+      <rect x="1005" y="0" width="315" height="90" rx="12" fill="#ffffff" fill-opacity=".02"/>
+      <text x="1162.5" y="45" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="28" fill="#f4f4f5">SIH '24</text>
+      <text x="1162.5" y="72" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".55" letter-spacing="1">NATIONAL FINALIST</text>
+
+    </g>
+  </g>
+</svg>

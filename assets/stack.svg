@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360">
+  <defs>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0V56" fill="none" stroke="#ffffff" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="50%" cy="44%" r="52%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity=".05"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="360" rx="18" fill="#0d1117"/>
+  <rect width="1400" height="360" rx="18" fill="url(#grid)"/>
+  <rect width="1400" height="360" rx="18" fill="url(#glow)"/>
+
+  <!-- Content -->
+  <g transform="translate(40, 30)">
+    
+    <!-- Row 1 -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="1320" height="40" rx="6" fill="#ffffff" fill-opacity=".02"/>
+      <text x="200" y="25" text-anchor="end" font-family="sans-serif" font-weight="700" font-size="14" fill="#f4f4f5" opacity=".85">LLM SYSTEMS</text>
+      
+      <rect x="230" y="8" width="45" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="252.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">RAG</text>
+      <rect x="285" y="8" width="55" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="312.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">ReAct</text>
+      <rect x="350" y="8" width="75" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="387.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">Tool Use</text>
+      <rect x="435" y="8" width="60" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="465" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">Memory</text>
+      <rect x="505" y="8" width="45" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="527.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">HyDE</text>
+      <rect x="560" y="8" width="145" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="632.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">Prompt Engineering</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(0, 50)">
+      <rect x="0" y="0" width="1320" height="40" rx="6" fill="#ffffff" fill-opacity=".02"/>
+      <text x="200" y="25" text-anchor="end" font-family="sans-serif" font-weight="700" font-size="14" fill="#f4f4f5" opacity=".85">DEEP LEARNING</text>
+      
+      <rect x="230" y="8" width="70" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="265" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">PyTorch</text>
+      <rect x="310" y="8" width="105" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="362.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">Transformers</text>
+      <rect x="425" y="8" width="45" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="447.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">CNNs</text>
+      <rect x="480" y="8" width="45" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="502.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">RNNs</text>
+      <rect x="535" y="8" width="95" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="582.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">Fine-Tuning</text>
+    </g>
+    
+    <!-- Row 3 -->
+    <g transform="translate(0, 100)">
+      <rect x="0" y="0" width="1320" height="40" rx="6" fill="#ffffff" fill-opacity=".02"/>
+      <text x="200" y="25" text-anchor="end" font-family="sans-serif" font-weight="700" font-size="14" fill="#f4f4f5" opacity=".85">AGENTS</text>
+      
+      <rect x="230" y="8" width="85" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="272.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">LangChain</text>
+      <rect x="325" y="8" width="85" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="367.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">LangSmith</text>
+      <rect x="420" y="8" width="105" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="472.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">Multi-Agent</text>
+      <rect x="535" y="8" width="115" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="592.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">Orchestration</text>
+      <rect x="660" y="8" width="35" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="677.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">MCP</text>
+    </g>
+
+    <!-- Row 4 -->
+    <g transform="translate(0, 150)">
+      <rect x="0" y="0" width="1320" height="40" rx="6" fill="#ffffff" fill-opacity=".02"/>
+      <text x="200" y="25" text-anchor="end" font-family="sans-serif" font-weight="700" font-size="14" fill="#f4f4f5" opacity=".85">RETRIEVAL</text>
+      
+      <rect x="230" y="8" width="55" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="257.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">FAISS</text>
+      <rect x="295" y="8" width="45" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="317.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">BM25</text>
+      <rect x="350" y="8" width="45" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="372.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">CLIP</text>
+      <rect x="405" y="8" width="170" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="490" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">sentence-transformers</text>
+    </g>
+
+    <!-- Row 5 -->
+    <g transform="translate(0, 200)">
+      <rect x="0" y="0" width="1320" height="40" rx="6" fill="#ffffff" fill-opacity=".02"/>
+      <text x="200" y="25" text-anchor="end" font-family="sans-serif" font-weight="700" font-size="14" fill="#f4f4f5" opacity=".85">ENGINEERING</text>
+      
+      <rect x="230" y="8" width="70" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="265" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">FastAPI</text>
+      <rect x="310" y="8" width="55" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="337.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">Flask</text>
+      <rect x="375" y="8" width="60" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="405" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">Docker</text>
+      <rect x="445" y="8" width="95" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="492.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">PostgreSQL</text>
+      <rect x="550" y="8" width="70" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="585" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">MongoDB</text>
+      <rect x="630" y="8" width="55" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="657.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">Redis</text>
+    </g>
+
+    <!-- Row 6 -->
+    <g transform="translate(0, 250)">
+      <rect x="0" y="0" width="1320" height="40" rx="6" fill="#ffffff" fill-opacity=".02"/>
+      <text x="200" y="25" text-anchor="end" font-family="sans-serif" font-weight="700" font-size="14" fill="#f4f4f5" opacity=".85">NLP</text>
+      
+      <rect x="230" y="8" width="55" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="257.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">spaCy</text>
+      <rect x="295" y="8" width="45" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="317.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">NLTK</text>
+      <rect x="350" y="8" width="105" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="402.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">HuggingFace</text>
+      <rect x="465" y="8" width="35" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="482.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">NER</text>
+      <rect x="510" y="8" width="85" height="24" rx="4" fill="#ffffff" fill-opacity=".05"/><text x="552.5" y="24" text-anchor="middle" font-family="monospace" font-size="12" fill="#f4f4f5" opacity=".75">Sentiment</text>
+    </g>
+    
+  </g>
+</svg>
